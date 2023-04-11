@@ -18,7 +18,7 @@ html {
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items:flex-end;
     /* As a flex container: display, flex-direction, justify-content, align-items */
 
@@ -32,12 +32,14 @@ html {
     flex-basis: 275px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     /* As a flex item: flex-grow, flex-shrink, flex-basis */
     /* As a flex container: display, flex-direction, justify-content, align-items */
 }
 
 .card-description {
     padding: 15px 0;
+    flex-basis: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
